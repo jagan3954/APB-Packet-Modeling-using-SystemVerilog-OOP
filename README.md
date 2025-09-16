@@ -82,8 +82,6 @@ class apb_packet;
   // Method to display packet
 endclass
 ```
----
-## SystemVerilog Code   
 
 ### APB Packet Class (`apb_tb.sv`) 
 ```systemverilog
@@ -101,7 +99,7 @@ module apb_tb;
 endmodule
 ```
 ---
-## Simulation Output
+### Simulation Output
 
 The simulation is carried out using ModelSim 2020.1.
 
@@ -111,7 +109,7 @@ Output log will show the APB packet details created using class objects.
 
 ---
 
-## Result
+### Result
 
 The design and verification of an APB packet model using SystemVerilog classes and objects was successfully carried out in ModelSim 2020.1.
 The experiment demonstrated how OOP concepts simplify modeling and reusability in SystemVerilog testbenches.
