@@ -69,7 +69,7 @@ In this experiment, we use *SystemVerilog OOP concepts* to model an APB packet.
 ## SystemVerilog Code   
 
 ### APB Packet Class (apb_packet.sv)  
-
+```
   class APB_Packet;
     rand bit [31:0] addr;   
     rand bit [31:0] data;   
@@ -104,10 +104,10 @@ In this experiment, we use *SystemVerilog OOP concepts* to model an APB packet.
     endfunction
   endclass
 
-
+```
 
 ### APB Packet Class (apb_tb.sv) 
-
+```
 module apb_packet_demo;
 
   initial begin
@@ -123,7 +123,7 @@ module apb_packet_demo;
   end
 endmodule
 
-
+```
 
 ### Simulation Output
 
